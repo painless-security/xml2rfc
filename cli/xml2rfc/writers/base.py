@@ -2240,9 +2240,11 @@ class BaseV3Writer(object):
 
         Top level items have level 1. N.B., num is a string.
         """
-        if num[-1] == '.':
-            num = num[:-1]  # chop off trailing '.'
-        return len(num.split('.'))
+        num_with_no_trailing_dot = num.rstrip('.')
+        components = num_with_no_trailing_dot.split('.')
+        if any([len(cpt) == 0 for cpt in components]):
+            log.warn('Empty section number component in "{}"'.format(num))
+        return len(components)
 
     @classmethod
     def is_top_level_section(cls, num):
