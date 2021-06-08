@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rfc xmlns:xi="http://www.w3.org/2001/XInclude" version="3" category="info" consensus="false" docName="draft-gieben-writing-rfcs-pandoc-02" indexInclude="true" ipr="trust200902" prepTime="2021-04-28T15:39:19" scripts="Common,Latin" sortRefs="true" submissionType="IETF" symRefs="true" tocDepth="3" tocInclude="true" xml:lang="en">
-  <!-- xml2rfc v2v3 conversion 3.7.0 -->
+<rfc xmlns:xi="http://www.w3.org/2001/XInclude" version="3" category="info" consensus="false" docName="draft-gieben-writing-rfcs-pandoc-02" indexInclude="true" ipr="trust200902" prepTime="2021-06-08T13:25:38" scripts="Common,Latin" sortRefs="true" submissionType="IETF" symRefs="true" tocDepth="3" tocInclude="true" xml:lang="en">
+  <!-- xml2rfc v2v3 conversion 3.8.0 -->
   <!--generate a table of contents -->
    <!--use anchors instead of numbers for references -->
    <!--alphabetize the references -->
