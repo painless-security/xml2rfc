@@ -1289,6 +1289,9 @@ class PrepToolWriter(BaseV3Writer):
     # 
     #    o  <artwork>, <aside>, <blockquote>, <dt>, <li>, <sourcecode>, <t>:
     #       pn='p-[section]-[counter]'
+    #
+    # N.B., the pn formats have changed from the above comment.
+    #
     def boilerplate_section_add_number(self, e, p):
         self.boilerplate_section_number += 1
         self.set_element_pn(e, '%s-boilerplate.%s' % (pnprefix[e.tag], self.boilerplate_section_number, ))
